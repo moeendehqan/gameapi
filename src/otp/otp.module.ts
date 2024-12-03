@@ -7,5 +7,6 @@ import { DrizzleModule } from '../db/drizzle.module';
   imports: [DrizzleModule],
   controllers: [OtpController],
   providers: [OtpService],
+  exports: [OtpService],
 })
 export class OtpModule {}
